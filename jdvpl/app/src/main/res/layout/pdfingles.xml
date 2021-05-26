@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.PDFINGLES"
+    android:background="@drawable/fondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E4000000">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pdf1">
+
+            <Button
+                android:id="@+id/descargarpdf1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/icono_download"
+                android:padding="15dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:backgroundTint="#0B27C2"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+        </com.github.barteksc.pdfviewer.PDFView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

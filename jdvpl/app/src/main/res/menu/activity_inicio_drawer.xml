@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio2"
+            android:icon="@drawable/cursoslo"
+            android:title="@string/cursos" />
+
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/videologo"
+            android:title="@string/videos" />
+        <item
+            android:id="@+id/nav_material"
+            android:icon="@drawable/iconosoftware"
+            android:title="@string/material" />
+        <item
+            android:id="@+id/nav_dudas"
+            android:icon="@drawable/retroa"
+            android:title="@string/retroalimentacion" />
+        <item
+            android:id="@+id/nav_divietertete"
+            android:icon="@drawable/iconoquiz"
+            android:title="@string/diviertete" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_usuario"
+                android:icon="@drawable/user"
+                android:title="@string/user" />
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/iconocontact"
+                android:title="@string/contacto" />
+            <item
+                android:id="@+id/nav_manual"
+                android:icon="@drawable/icomanual"
+                android:title="@string/manual_de_usuario" />
+
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/logoout"
+                android:title="@string/cerrar_sesi_n" />
+        </menu>
+    </item>
+
+</menu>

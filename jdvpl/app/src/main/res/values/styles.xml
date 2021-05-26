@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#051391</item>
+        <item name="colorPrimaryDark">#051391</item>
+        <item name="colorAccent">#08DEE6</item>
+        <item name="android:windowContentTransitions" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Mytheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="actionModeStyle">@style/AppTheme</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:textColor">@color/gradient_start_color</item>
+        <item name="android:windowBackground">@drawable/backgraound</item>
+    </style>
+
+</resources>

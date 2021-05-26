@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.PostDetailActivity"
+    android:background="#000">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:id="@+id/post_detail_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/s1"
+            android:padding="0dp"/>
+        <Button
+            android:layout_width="26dp"
+            android:id="@+id/flecha"
+            android:layout_height="24dp"
+            android:background="@drawable/regresarflecha"
+            android:textColor="#000"
+            android:layout_margin="12dp"
+            android:elevation="100dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+
+            android:id="@+id/post_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/post_detail_img"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="5dp"
+            android:lineSpacingExtra="10dp"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="telefono"
+            android:layout_below="@+id/post_detail_img"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_toLeftOf="@id/potwhatssap"
+            android:id="@+id/post_detail_telefono"
+            android:textSize="17sp"/>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/potwhatssap"
+            android:background="@drawable/whats"
+            android:layout_alignParentRight="true"
+            android:layout_margin="7dp"
+            android:layout_below="@id/post_detail_img"/>
+
+        <View
+            android:background="#fff"
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/post_detail_title"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/post_detail_date_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            tools:text="a" />
+        <ImageView
+            android:id="@+id/post_detail_user_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/view"
+           android:layout_toRightOf="@id/post_detail_date_name"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_detail_user_img"
+        android:id="@+id/horr">
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cra"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/cr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="#EEE9E9"
+            android:layout_toRightOf="@+id/cr"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/crnu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ECE5E5"
+            android:layout_toRightOf="@+id/crnu"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/numera"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10-37"
+            android:textColor="#F5F0F0"
+            android:layout_toRightOf="@+id/numera"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/crdire"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="florencia"
+            android:textColor="#F1EBEB"
+            android:layout_toRightOf="@+id/crdire"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/crciu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#EBE0E0"
+            android:layout_toRightOf="@+id/crciu"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/coma"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="caqueta"
+            android:textColor="#F5EAEA"
+            android:layout_toRightOf="@+id/coma"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/depar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#F5EAEA"
+            android:layout_toRightOf="@+id/depar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/comma2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="colombia"
+            android:textColor="#F5EAEA"
+            android:layout_toRightOf="@+id/comma2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/pais"/>
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/locatio"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnmaps"
+            android:visibility="visible"
+            android:layout_marginLeft="10dp"/>
+
+
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </androidx.core.widget.NestedScrollView>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_below="@id/horr"
+            android:id="@+id/nestes">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#DAC5C5"
+            android:lineSpacingExtra="8dp"
+            android:id="@+id/post_detail_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="dfkjdkfjdkfjkdjfl;ksdjflksadfjlkdhfgkjhfdg;ljdsfglksdjfglkdsjfglksjdfglkjsldkfgjlskdfjglksdfjglksdjfglksdjfglkdjfglksdjfgsad;jfl;ksdajf;lkasdjfl;kasdjfl;ksdjflk;asdjfl;ksajdfl;kasjdflk;ajsdf;lkLorem ipsum dolor sit amet, consectetur adipiscing elit,rum eiusmod tempor incididunt ut labore et dolore magna aliqua"
+             />
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+        <ImageView
+            android:id="@+id/post_detail_currentuser_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/nestes"
+            tools:srcCompat="@tools:sample/avatars" />
+        <EditText
+
+            android:hint="@string/com1"
+            android:background="@drawable/edittext_button_style_rounded"
+            android:id="@+id/post_detail_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:ems="11"
+            android:layout_below="@+id/nestes"
+            android:layout_toRightOf="@+id/post_detail_currentuser_img"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/post_detail_add_comment_btn"
+            android:layout_width="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="45dp"
+            android:layout_toRightOf="@+id/post_detail_comment"
+            android:layout_below="@+id/nestes"
+            android:background="@drawable/enciar"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/post_detail_comment" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/eliminarb"
+            android:onClick="eliminarnd"
+            android:layout_below="@+id/view"
+            android:layout_alignParentRight="true"
+            android:id="@+id/eliminar"/>
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

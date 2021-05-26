@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.webSublime"
+    android:background="#000">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:id="@+id/progre1"
+                android:layout_marginHorizontal="10dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cargando"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FCFCFC"
+                android:id="@+id/cargand"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/progre1"
+                android:layout_centerHorizontal="true"/>
+
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/wwwxsublime"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="26dp"
+                    android:id="@+id/flecha"
+                    android:layout_height="24dp"
+                    android:background="@drawable/regresarflecha"
+                    android:textColor="#000"
+                    android:elevation="100dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp"
+                    />
+            </WebView>
+            <Button
+                android:id="@+id/btnregre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="reg"
+                android:text="@string/regr"
+                android:layout_below="@id/wwwxsublime"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:layout_alignParentBottom="true"
+                android:padding="15dp"
+                android:background="@drawable/btn_redonhtm"
+                android:layout_gravity="center_horizontal"/>
+
+        </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

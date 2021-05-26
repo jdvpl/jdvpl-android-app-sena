@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="app.juanda.jdvpl.loginredes">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logfon"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ED0C0C0C"
+        >
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/salir"
+            android:background="@drawable/logoout"
+            android:layout_alignParentRight="true"
+            android:layout_margin="30dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:id="@+id/sena"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            android:src="@drawable/logosena"
+            android:layout_marginTop="20dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:layout_below="@+id/sena"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/loti"
+            android:scaleType="fitXY"
+            android:layout_marginHorizontal="20dp"
+            android:elevation="100dp"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="jire.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loti"
+            android:background="@drawable/btn_redonreg"
+            android:layout_centerHorizontal="true"
+            android:onClick="iniciodra"
+            android:layout_marginTop="20dp"
+            android:text="@string/siguiente"/>
+        </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.quizactvivity"
+    android:background="@drawable/fondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8000000">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_width="26dp"
+                    android:id="@+id/flecha"
+                    android:layout_height="24dp"
+                    android:background="@drawable/regresarflecha"
+                    android:layout_margin="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:text="@string/d1"
+        android:textColor="#6A04DD"
+        android:textStyle="bold"
+        android:id="@+id/pracri"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:textSize="28sp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/quizlofo"
+            android:layout_below="@+id/pracri"
+            android:layout_centerHorizontal="true"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="programin.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quizlofo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="Tu Record: 0"
+        android:elevation="50dp"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_redonquiz"
+        android:layout_below="@+id/text_view_highscore"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:elevation="20dp"
+        android:textStyle="bold"
+        android:text="@string/d2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/button_start_quiz"
+                    android:id="@+id/categoria"
+                    android:text="@string/d3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#6A04DD"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/categoria"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:background="@drawable/quizbackgroundspiner"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinner_category"
+                    android:id="@+id/dificultad"
+                    android:text="@string/d4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#6A04DD"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/spinner_difficulty"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/dificultad"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:addStatesFromChildren="false"
+            android:background="@drawable/quizbackgroundspiner"
+            android:gravity="center_horizontal"
+            android:textAlignment="center" />
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

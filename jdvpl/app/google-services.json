@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "263895136558",
+    "firebase_url": "https://jdvpl-562ae.firebaseio.com",
+    "project_id": "jdvpl-562ae",
+    "storage_bucket": "jdvpl-562ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263895136558:android:18b213b99f913971",
+        "android_client_info": {
+          "package_name": "app.juanda.jdvpl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263895136558-2chh1uegj4stg3mfjnqta88nbr8l4sh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jdvpl",
+            "certificate_hash": "310b0f8a9f33fdec50c9bb31805cb7e51fbdc3da"
+          }
+        },
+        {
+          "client_id": "263895136558-3vqmf8bn9bes2mrdu3v45bv9ot3bv67f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAjHW0G4N7iZA0f_FpP1Ftcwdz5rZa3Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263895136558-3vqmf8bn9bes2mrdu3v45bv9ot3bv67f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

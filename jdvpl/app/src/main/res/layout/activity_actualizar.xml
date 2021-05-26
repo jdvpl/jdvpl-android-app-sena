@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgraound"
+    tools:context="app.juanda.jdvpl.actualizar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C90F0F0F">
+
+        <Button
+            android:id="@+id/actualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lol1"
+            android:layout_centerHorizontal="true"
+
+            android:background="@drawable/btn_redonreg"
+            android:text="@string/actualizar"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progreee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lol1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/usergmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/curren_img"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/correo"
+            android:textColor="#FAFAFA"
+            android:textSize="22sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lol1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usergmail"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="#fff">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/usernombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:textColor="#fff"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="#fff"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:id="@+id/curren_img"
+            android:layout_width="250dp"
+            android:layout_height="330dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/galeee" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/camerapor"
+            android:onClick="camara"
+            android:layout_below="@+id/popup_img"
+            android:background="@drawable/ic_camera_enhance_black_24dp"
+            android:backgroundTint="#f00"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

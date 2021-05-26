@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.videos"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8000000">
+
+            <Button
+                android:layout_width="26dp"
+                android:id="@+id/flecha"
+                android:layout_height="24dp"
+                android:background="@drawable/regresarflecha"
+                android:layout_margin="12dp"/>
+
+            <TextView
+                android:id="@+id/txttitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A9080113"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/v1"
+                android:textColor="#6833DF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_below="@+id/txttitulo"
+        android:layout_width="match_parent"
+        android:id="@+id/playerf"
+        android:layout_height="wrap_content">
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/gracias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/playerf"
+            android:layout_marginTop="0dp"
+            android:textColor="#fff"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="@string/vt1"
+            android:textSize="15.6sp" />
+        <TextView
+            android:layout_below="@+id/gracias"
+            android:layout_width="match_parent"
+            android:id="@+id/gracias1"
+            android:background="#A9080113"
+            android:layout_marginTop="0dp"
+            android:lineSpacingExtra="0dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:textColor="#6833DF"
+            android:textStyle="bold"
+            android:text="@string/vt2"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gracias1"
+            android:layout_marginTop="5dp"
+            android:id="@+id/relativecomentario"
+            >
+
+
+            <ImageView
+                android:id="@+id/userfoto"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/fondo" />
+
+            <EditText
+                android:id="@+id/comenttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_comment_caja"
+                android:layout_marginTop="8dp"
+                android:textColorHint="#fff"
+                android:ems="11"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/userfoto"
+                android:hint="@string/vt33"
+                android:inputType="textPersonName"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <ImageButton
+                android:id="@+id/btnadd"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#4512042C"
+                android:src="@drawable/iconsendd"
+                android:layout_toRightOf="@+id/comenttitle"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/comenttitle"
+                    android:id="@+id/recicle_vista"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="5dp" />
+        </RelativeLayout>
+        </RelativeLayout>
+</LinearLayout>

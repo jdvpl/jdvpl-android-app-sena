@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.juanda.jdvpl.ScrollingPHP"
+    tools:showIn="@layout/activity_scrolling_php"
+    android:background="#000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#000416"
+        android:layout_margin="20dp"
+        app:cardElevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/p1"
+                android:id="@+id/ques"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textColor="#95A3FD"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/elephpant"
+                android:layout_below="@+id/ques"
+                android:id="@+id/c1"
+
+                />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/c1"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="@string/pt1"
+                android:textColor="#F5EEEE"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2"
+                    android:id="@+id/conf1"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p1"
+                    android:layout_below="@+id/conf1"
+                    android:id="@+id/p1"
+
+                    />
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p2"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/p1"
+                    android:id="@+id/p2"
+
+                    />
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/p2"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt2"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <!--hola Mundo-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p3"
+                    android:id="@+id/conf2"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="320dp"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p3"
+                    android:layout_below="@+id/conf2"
+                    android:id="@+id/p3" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/p3"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:id="@+id/txtdh"
+                    android:text="@string/pt3"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--variables-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4"
+                    android:id="@+id/v1"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="220dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/v1"
+                    android:layout_below="@+id/v1"
+                    android:id="@+id/i1" />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="220dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/v2"
+                    android:layout_below="@+id/i1"
+                    android:id="@+id/i2" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/i2"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:id="@+id/txtdh1"
+                    android:text="@string/pt4"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--constantes-->
+
+
+        <!--concatenacion e interpolacion-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5"
+                    android:id="@+id/p4"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="320dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p4"
+                    android:layout_below="@+id/p4"
+                    android:id="@+id/i3" />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="320dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p5"
+                    android:layout_below="@+id/i3"
+                    android:id="@+id/i4" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/i4"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:id="@+id/txtdh4"
+                    android:text="@string/pt5"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--concatenacion-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p6"
+                    android:id="@+id/t5"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p6"
+                    android:layout_below="@+id/t5"
+                    android:id="@+id/im5" />
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="220dp"
+                    android:layout_height="130dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p7"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/im5"
+                    android:id="@+id/im6" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im6"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt6"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--operadores aritmeticos-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p7"
+                    android:id="@+id/t6"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p8"
+                    android:layout_below="@+id/t6"
+                    android:id="@+id/im7" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im7"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt7"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <!--operadores de asignacion-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p8"
+                    android:id="@+id/t8"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p10"
+                    android:layout_below="@+id/t8"
+                    android:id="@+id/im9" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im9"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt8"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--operadores Logicos-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p9"
+                    android:id="@+id/t7"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="350dp"
+                    android:layout_height="145dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p9"
+                    android:layout_below="@+id/t7"
+                    android:id="@+id/im8" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im8"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt9"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--else if, if else-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p10"
+                    android:id="@+id/t10"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p11"
+                    android:layout_below="@+id/t10"
+                    android:id="@+id/im10" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im10"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt10"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--switch-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p11"
+                    android:id="@+id/t11"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/s1"
+                    android:layout_below="@+id/t11"
+                    android:id="@+id/im11" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im11"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt11"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--while-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p12"
+                    android:id="@+id/t12"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="260dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p12"
+                    android:layout_below="@+id/t12"
+                    android:id="@+id/im12" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im12"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt12"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+          <!--for-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p13"
+                    android:id="@+id/t13"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="260dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p13"
+                    android:layout_below="@+id/t13"
+                    android:id="@+id/im13" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im13"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt13"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!--Array-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p14"
+                    android:id="@+id/t14"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="320dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p14"
+                    android:layout_below="@+id/t14"
+                    android:id="@+id/im14" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im14"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt14"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Conexion-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p15"
+                    android:id="@+id/t15"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="260dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/p15"
+                    android:layout_below="@+id/t15"
+                    android:id="@+id/im15" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/im15"
+                    android:id="@+id/btnyo"
+                    android:layout_marginTop="10dp"
+                    android:onClick="youtubemys"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/pt15"
+                    android:background="@drawable/btn_redoncss3"
+                    android:backgroundTint="#474F79"/>
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnyo"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt155"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--formulario-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p16"
+                    android:id="@+id/t16"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="320dp"
+                    android:layout_height="220dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/f14"
+                    android:layout_below="@+id/t16"
+                    android:id="@+id/im16" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im16"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt16"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--guardar-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p17"
+                    android:id="@+id/t17"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="340dp"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/f15"
+                    android:layout_below="@+id/t17"
+                    android:id="@+id/im17" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im17"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt17"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--imprimir en pantalla los datos guardados en la bd-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#000416"
+            android:layout_margin="20dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p18"
+                    android:id="@+id/t18"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#95A3FD"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="true"
+                    android:padding="10dp"
+                    android:layout_gravity="center"/>
+
+
+
+                <com.zolad.zoominimageview.ZoomInImageView
+                    android:layout_width="340dp"
+                    android:layout_height="180dp"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/f16"
+                    android:layout_below="@+id/t18"
+                    android:id="@+id/im18" />
+
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/im18"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:text="@string/pt18"
+                    android:textColor="#F5EEEE"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/quieres"
+                android:layout_height="wrap_content"
+                android:text="@string/p19"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="18dp"
+                android:onClick="videocss3"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_redonphp"/>
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/videoplay"
+                android:layout_marginBottom="10dp"
+                android:tint="#474F79"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+               android:layout_toRightOf="@+id/quieres"
+                android:scaleType="centerCrop"
+                android:onClick="videocss3"
+                android:background="#0C000000"/>
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.core.widget.NestedScrollView>

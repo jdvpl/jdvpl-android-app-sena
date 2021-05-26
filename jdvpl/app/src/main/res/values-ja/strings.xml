@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="idioma">言語</string>
+    <string name ="no_estas_inscrito_reg_strate">登録済みのレジスタではありません!! </string>
+    <string name ="correo">メール</string>
+    <string name="contraseña">パスワード</string>
+    <string name="inicio_de_sesion">ログイン</string>
+    <string name="apellido">姓</string>
+    <string name="correo1">メール</string>
+    <string name="contraseña1">パスワード</string>
+    <string name="confirmar_contrase_a">パスワードを確認</string>
+    <string name="nombre">名</string>
+    <string name="registrar">登録する</string>
+    <string name="ya_tengo_cuenta">すでにアカウントを持っています</string>
+    //menu
+    <string name="cursos">コース</string>
+    <string name="videos">ビデオ</string>
+    <string name="material">マテリアル</string>
+    <string name="retroalimentacion">フィードバック</string>
+    <string name="diviertete">楽しんでください</string>
+    <string name="contacto">連絡先</string>
+    <string name="manual_de_usuario">ユーザーマニュアル</string>
+    <string name="cerrar_sesi_n">セッションを閉じる</string>
+    <string name="Inicio">始める</string>
+    <string name="Inicio2">コースを選択してください</string>
+
+    <string name="html5">HTML5</string>
+    <string name="maquetaci_n_de_sitios_web">ウェブサイトのレイアウト</string>
+    <string name="todo_en_dise_o_y_estilos">すべてデザインとスタイルで</string>
+    <string name="framework_dise_ado_para_sitios_web">Webサイト用に設計されたフレームワーク</string>
+    <string name="contenido_web_din_mico">動的なWebコンテンツ</string>
+    <string name="el_mejor_gestor_de_base_de_datos">最高のデータベースマネージャー</string>
+    //html5
+    <string name="qu_es_html5">¿HTML5とは何ですか？</string>
+    <string name="html5_es_un_lenguaje_markup_de_hecho_las_siglas_de_html_significan_hyper_text_markup_language_usado_para_estructurar_y_presentar_el_contenido_para_la_web_es_uno_de_los_aspectos_fundamentales_para_el_funcionamiento_de_los_sitios_pero_no_es_el_primero_es_de_hecho_la_quinta_revisi_n_del_est_ndar_que_fue_creado_en_1990">HTML5は、Webのコンテンツを構造化して表示するために使用されるマークアップ言語です（実際、HTMLの頭字語はHyper Text Markup Languageを意味します）。 これはサイトの運用の基本的な側面の1つですが、最初のものではありません。 実際、1990年に作成された標準の5番目の改訂版です。</string>
+    <string name="ht1">Doctypeとは何ですか</string>
+    <string name="htx1">Doctypeまたは「ドキュメントタイプ宣言」は、HTMLドキュメントの先頭に移動し、ブラウザが使用しているHTMLのバージョンを理解できるようにする特別な命令です。</string>
+
+    <string name="h2">HTML META タグ</string>
+    <string name="ht2">メタタグまたはメタタグはHTMLドキュメントの先頭にあり、Webページ上のブラウザおよび検索エンジンにコード化された情報を提供します。</string>
+    <string name="h3">Header</string>
+    <string name="ht3">これは（html5からの）新しいタグであり、ページ内のヘッダーを定義できます。 実際には、ナビゲーション、ロゴ、h1などが配置されるページのメインヘッダーがいくつかあります。</string>
+    <string name="h4">Nav</string>
+    <string name="ht4">メインメニュー、サイドバー（サイド）、フッターなどのリンクゾーンをマークするために使用されます。 ヘッダー、フッター、セクション、記事内にナビゲーションを含めることができます</string>
+    <string name="h5">Section</string>
+    <string name="ht5">HTML5のもう1つの新しい要素であり、特にdivの過剰な使用を避けるために作成されました。 ドキュメントをニュースセクションや製品のセクションなどの異なるセクションに分割し、ヘッダー、div、フッターに順番に分割するために使用する必要があります</string>
+    <string name="ht6">これは古典的な要素であり、コンテンツをブロックまたはレイヤーにグループ化し、セット全体にスタイルや場所を適用できるようにするために使用する必要があります。たとえば、右揃えにする場合などです。</string>
+    <string name="ht7">記事は、まるでブログ投稿のように情報のブロックですが、ニュースである必要はなく、サービス、製品、他のページへのリンクなどでもかまいません。 アイデアは、1つのセクション内に、より多くのロジックがあるため、グループ化されたさまざまな記事があるということです。</string>
+    <string name="ht8">ページでトピックについて話しているときに、このラベルを使用するために、他のトピックと直接関係のないものを明確にする必要がある場合があります。通常は、より一般的なコンテンツであるサイドバーを確立するために使用されます</string>
+    <string name="ht9">フォームをマークするために使用されます。 HTML5フォームの機能は、フォームが異なるWebサイト間でより一貫した動作を行えるようにし、入力された情報を即座に返すことにより、ユーザーエクスペリエンスを向上させます。</string>
+    <string name="ht10">タイトル、説明、著作権などの画像がある場合 その画像に関連するすべてのコンテンツをこのタグでグループ化する必要があります</string>
+    <string name="ht11">フッタータグは、ドキュメントまたはセクションの足を表します。 このブロックに通常追加される情報は、ドキュメントの作成者、関連コンテンツへのリンク、著作権情報、法的通知などです。下部に連絡先情報を追加することもできます。</string>
+    <string name="ht12">ウェブサイトを作成しますか？</string>
+    //css3
+    <string name="c1">css3とは何ですか？</string>
+    <string name="ct1">CSSは、カスケードスタイルシートとも呼ばれ、カスケードスタイルシートとも呼ばれます。 CSS3は、Webサイトのフォーマットに使用されるマークアップ言語です。 つまり、HTMLファイルと連携して機能します。 このため、Webサイトを作成するには、HTMLとCSSの両方を知っている必要があります。</string>
+    <string name="c2">CSSをHTMLに接続する</string>
+    <string name="ct2">cssファイルをhtml5に接続するには3つの方法があります。最初の方法は、htmlファイルがある同じフォルダーにファイルを作成し、リンクタグを配置してファイルを接続し、デザインの提供を開始することです。 2つ目は、ヘッド内にHTMLスタイルファイルを作成し、そこからスタイルを作成することです。 3番目では、スタイル属性を配置し、そこからスタイルからそれを与える必要があります.</string>
+    <string name="c3">グローバルセレクター：*</string>
+    <string name="ct3">グローバルセレクターは、タグ、クラス、ID、またはそれらの祖先、ディセントのタイプに関係なく、ドキュメントのすべてのHTML要素にスタイルを適用します。 これはアスタリスク（*）であり、区別なくすべての要素（本文を含む）に影響するため、使用に注意する必要があり、これはプロジェクトの全体的なパフォーマンスに影響を与える可能性があります。</string>
+    <string name="c4">要素セレクター：h1、section、article、imgなど。</string>
+    <string name="ct4">HTMLタグを直接識別する最も一般的なセレクターです。 スタイルは前述のすべての要素に適用されます。 次の例では、灰色の背景をすべての「div」レイヤーに適用する方法を示しています。</string>
+    <string name="c5">クラスセレクターまたは識別子：。 、＃</string>
+    <string name="ct5">クラスセレクターは、そのクラス名を含むすべてのHTML要素にスタイルを適用します。 このCSSセレクターを宣言するには、ピリオド（。）が前に付いたクラス名を含めます。 識別子セレクター（id）は＃でシンボル化され、クラス（。）と類似しています。</string>
+    <string name="c6"><![CDATA[直接の子セレクター：要素A>要素B]]></string>
+    <string name="ct6">このセレクターを使用すると、直接の子孫である限り、要素Aに含まれる要素Bにスタイルを適用できます。 この場合、セクションは記事の親です。つまり、記事はセクション内にあります。</string>
+    <string name="c7">疑似クラス：ホバー、リンク、訪問済み、アクティブ</string>
+    <string name="ct7">間違いなくこれらは最もよく知られている擬似クラスであり、ホバーは複数の要素に適用できますが、すべて「on」、「visiting」、「visited」、「 アクティブ」（クリック時）。</string>
+    <string name="c8">ウェブサイトをデザインしますか？</string>
+    <string name="b1">ブートストラップとは何ですか？</string>
+    <string name="bt1">Bootstrapは、Twitterによって（2011年に）最初に開発されたCSSフレームワークであり、フォント、ボタン、テーブル、メニュー、および任意のWebサイトで使用できるその他の要素を含むCSSライブラリを使用してWebサイトを形成できます。 Bootstrapフレームワークの開発はTwitterによって開始されましたが、2011年にMITライセンスの下でリリースされ、GitHubリポジトリで開発が継続されています</string>
+    <string name="b2">ブートストラップへの接続</string>
+    <string name="bt2">Boostrap Frameworkを接続するには、ページからリンクを貼り付けることでいくつかのオプションがありますが、インターネットで動作します。代わりに、使用するのは、ページから直接.css、.jsファイルをダウンロードし、 プロジェクトが進みます。 そこで、cssファイルとjsファイルのみを異なるフォルダーに残し、リンクとスクリプトタグで崇高なテキストでリンクします。また、jsが機能するように、ページからJqueryライブラリのリンクをリンクします。</string>
+    <string name="b3">ナビゲーションバー</string>
+    <string name="bt3">ナビゲーションバーを簡単かつ迅速に作成するには、Bootstrapのドキュメントでコンポーネントセクションに移動し、Navbarを探してどれを選択し、崇高なテキスト3にコピーしてから、出力したいものを編集するだけです。</string>
+    <string name="b4">カルーセルまたはスライダー</string>
+    <string name="bt4">カルーセルは、3D CSS変換とJavaScriptを使用して構築された一連のコンテンツを確認するためのスライドショーです。 一連の画像、テキスト、またはカスタムマークで動作します。 また、前/次のコントロールとインジケータのサポートも含まれています.</string>
+    <string name="bt5">これは、オプションでグラフィックウィンドウ全体を拡張して、サイトに重要なマーケティングメッセージを表示できる軽量で柔軟なコンポーネントです。</string>
+    <string name="b6">カード</string>
+    <string name="bt6">カードは、柔軟で拡張可能なコンテンツのコンテナです。 ヘッダーとフッターのオプション、さまざまなコンテンツ、コンテキストの背景色、強力な表示オプションが含まれます.</string>
+    <string name="b7">アコーディオンまたは折りたたみ</string>
+    <string name="bt7">カードコンポーネントを使用すると、デフォルトの折りたたみ動作を拡張してアコーディオンを作成できます。 アコーディオンスタイルを正しく実現するには、必ずアコーディオンスタイルをラッパーとして使用してください。</string>
+    <string name="b8">アラート</string>
+    <string name="bt8">少数の利用可能な柔軟なアラートメッセージを使用して、一般的なユーザーアクションのコンテキストコメントメッセージを提供します。</string>
+    <string name="b9">ブートストラップのドキュメント</string>
+    //php
+    <string name="p1">phpとは何ですか？</string>
+    <string name="pt1">PHP（PHPの再帰的な頭字語：Hypertext Preprocessor）は、Web開発に特に適し、HTMLに埋め込むことができる非常に人気のあるオープンソース言語であり、HPPは動的なWebページの生成に使用されます。 コンテンツが常に同じであるページに対して静的ページを呼び出し、コンテンツが常に同じではないページに対して動的ページを呼び出すことに注意してください。 たとえば、コンテンツは、データベースの変更、検索、ユーザーの貢献などに基づいて変更される場合があります。</string>
+    <string name="p2">環境設定</string>
+    <string name="pt2">PHP拡張子を持つ崇高なテキスト3ファイルを作成し、htdocsフォルダーに保存する必要がありますが、このためにはxamppプログラムをインストールする必要があります。 Xamppをダウンロードしたら、例のようにインストールしたxammp HTDOCSフォルダーにファイルを保存する必要があります。 作成したページを表示するには、xamppパーミッション（apacheおよびmysql）をアクティブにする必要があります。 サービスをアクティブにしたら、画像2の例だけでなく、ブラウザにルートを配置する必要があります</string>
+    <string name="p3">HTML内のHello World</string>
+    <string name="pt3">画像からわかるように、php5にhtml5タグを埋め込むことができます。phpタグは常に「？Php」で始まり、「？」で閉じることに注意してください。 ここでは、テキストHello Worldを配置しますが、それを印刷できるようにするには、エコー機能を使用する必要があります。また、ブートストラップまたはccs3でスタイル設定できることも考慮に入れます。</string>
+    <string name="p4">変数</string>
+    <string name="pt4">PHPでは、変数はドル記号と変数名で表されます。 変数名では大文字と小文字が区別されます。 また、画像で見られるように、変数はechoまたはprintで画面に印刷することで変更できます。 変数にはいくつかのタイプがあります。文字列（テキスト文字列）整数（整数）浮動小数点または倍精度（10進数）ブール（真または偽）</string>
+    <string name="p5">定数</string>
+    <string name="pt5">定数は、単純な値の識別子（名前）です。 名前が示すように、この値はスクリプトの実行中に変更できません。 デフォルトでは、定数は大文字と小文字を区別します。 規則により、定数識別子は常に大文字で宣言されます。</string>
+    <string name="p6">連結と補間</string>
+    <string name="pt6">これらの2つの画像で2つの変数を結合するのを見ることができるように、これらの2つの形式があります。また、補間または連結によって画面に印刷したいプログラマーもいます。</string>
+    <string name="p7">算術演算子</string>
+    <string name="pt7">学校の基本的な算術を覚えていますか？ これらはちょうどそれらのように動作します。 複数の人がモジュールを知らないように。 このモジュールは、除算の残りの部分を知るのに役立つ演算子です。今日では、この演算子は奇数と偶数、または素数に広く使用されています。</string>
+
+
+    <string name="p8">割り当て演算子</string>
+    <string name="pt8">代入演算子を使用すると、変数に値を割り当てることができます。 最もよく知られている代入演算子は等号（=）ですが、基本的な代入演算子の派生である他の演算子があります。 図に示すように、代入演算子が使用され、加算と減算は乗算、除算、連結までのモジュールでも使用されますが、広く使用されていません。</string>
+    <string name="p9">論理演算子と比較演算子</string>
+    <string name="pt9">比較演算子を使用すると、名前が示すとおり、2つ以上の値を比較できます。 一般的に、これは決定を下すのに役立ちます。 たとえば、銀行口座に十分な残高があるため、操作を許可するかどうかを決定する必要がある場合があります。 PHPでこれを行うには、画像に示されている演算子があります。</string>
+    <string name="p10">else if/if else</string>
+    <string name="pt10">else ifは、名前が示すように、ifとelseの組み合わせです。 他の方法と同じように、元のif式がFALSEと評価される場合に、ifステートメントを拡張して別のステートメントを実行します。 ただし、他の場合と異なり、elseif条件式がTRUEと評価された場合にのみ、その代替式が実行されます。 たとえば、次のコードは、aがbより大きいこと、aがboaがbより小さいことを示す必要がありますが、変数a = 5および変数b = 2に割り当てられると、結果は最初の条件を与えます 。</string>
+    <string name="p11">switchステートメント</string>
+    <string name="pt11">switchスPHPの配列は、実際には順序付けられたマップです。 マップは、値をキーに関連付けるデータの一種です。 このタイプは、いくつかの異なる用途に最適化されています。 配列、リスト（ベクトル）、連想テーブル、辞書、コレクション、スタック、キューなどとして使用できます。 配列の値は他の配列にすることができるため、多次元ツリーと配列も可能です。 この例では、9個の果物を配置し、画像が表示される順序（2,5,8,0）を印刷することがわかります。</string>
+    <string name="p12">whileループ</string>
+    <string name="pt12">whileステートメントの意味は簡単です。 ネストされたステートメントを実行するようにPHPに指示し、while式がTRUEと評価されます。 式の値はループの開始時に毎回検証されるため、ネストされたステートメントの実行中にこの値が変更されても、反復の終わりまで実行は停止しません。 while式が最初からFALSEとして評価される場合、ネストされたステートメントは一度も実行されないことがあります。</string>
+    <string name="p13">ループ</string>
+    <string name="pt13">最初の画像でループと対話する場合、forループは簡単です。2から2から10に増加するループがあり、2番目のループで3から3から20から-20に減少することがわかります。</string>
+    <string name="p14">アレイ</string>
+    <string name="pt14">PHPの配列は、実際には順序付けられたマップです。 マップは、値をキーに関連付けるデータの一種です。 このタイプは、いくつかの異なる用途に最適化されています。 配列、リスト（ベクトル）、連想テーブル、辞書、コレクション、スタック、キューなどとして使用できます。 配列の値は他の配列にすることができるため、多次元ツリーと配列も可能です。 この例では、9個の果物を配置し、画像が表示される順序（2,5,8,0）を印刷することがわかります。</string>
+    <string name="p15">データベースへの接続</string>
+    <string name="pt15">データベースの作り方</string>
+    <string name="pt155">データベースへの接続は簡単ですが、最初にデータベースを作成する必要があります。 この例では、mysqliとの接続を、この場合は\ \'localhost \'であるサーバー、\'root \'であるユーザー、持たないパスワードは空白のままにし、データベースの名前は この場合、\'phpcrud \'です。</string>
+    <string name="p16">フォームの実装</string>
+    <string name="pt16">フォームを作成するだけでなく、あなたの好みとデータのタイプに応じて他のフィールドを配置することができますが、すべてのデータを保存する（operation_guardar）アクションが実行されるため、name を考慮する必要があります データベース内にありますが、このためにファイル操作 save を作成する必要があります。この操作では、接続を作成してデータベースにデータを保存し、メソッド POST はデータを処理および取得します 。 それぞれの name でフォームを作成した後、データベースの各フィールドに名前を付けた名前と同じ名前であることを確認してください。たとえば、データベースではnameというフィールドがあり、フォームには 同じ</string>
+    <string name="p17">BDにデータを保存する</string>
+    <string name="pt17">操作保存ファイルには、データベースへの接続を確立する接続ファイルが含まれています。 フォームの各フィールドに対応する変数を作成し、POST メソッドを使用してそれらを取得し、query という変数を作成します。この変数では、各データを対応するデータベースに挿入します 、この場合、データは、変数として収集されたフィールド name、email、telephone、city、message を名前として持つユーザーテーブルに挿入されます（$ name 、$ mail 、$電話、 $都市、 $メッセージ）。 次に、対応するデータにデータを挿入するプロセスを行う結果変数が作成されます。最後の条件は、挿入が成功したかどうかを確認することです。</string>
+    <string name="p18">bdに保存されたデータを画面に印刷します</string>
+    <string name="pt18">フォームに追加するデータを画面に印刷するには、接続ファイルが必要で、operacion_guardar のファイルで使用したものと同じ変数を使用する必要があります。さらに、SELECT * FROM usua 画像にあるのと同じ方法で ユーザー テーブルに挿入されたすべてのデータを選択するには、関数  fetch_assoc でwhileループを使用して、次の順序で画面に印刷する必要があります 彼らは挿入しています。 一方で、name と message の2つのデータのみを出力しますが、変数 $ row に等しく入力するのは好みのものです。</string>
+    <string name="p19">フォームを使用してページを作成します</string>
+    //mysql
+    <string name="m1">mysqlとは何ですか？</string>
+    <string name="mt1">MySQLは、二重ライセンスを持つデータベース管理システムです。 一方ではオープンソースですが、他方では、オラクル社が管理する商用バージョンを持っています。 現在、これは世界で最も有名で使用されているオープンソースデータベースです。</string>
+    <string name="m2">ApacheおよびMySQLサービスをアクティブにします</string>
+    <string name="mv2">設置ビデオ</string>
+    <string name="mt2">MySQLでデータベースを作成および管理するには、ApacheおよびMySQLサービスをアクティブにする必要があります</string>
+
+    <string name="m3">cmdまたはインターネットからデータベースを入力する</string>
+    <string name="mt3">apacheおよびmysqlサービスをアクティブにした後、cmdまたはDOSを入力し、イメージ番号1に示されているパスを入力するか、好みの http：// localhost / phpmyadmin /のブラウザーに書き込みます。 データ</string>
+    <string name="m4">データベースを作成する</string>
+    <string name="mt4">データベースを入力したら、もう一度クリックして、そこでやりたいデータベースを作成します。この場合、文字のタイプを選択します。utf8_general-ci createをクリックし、対応する列の数でテーブルを作成します。</string>
+    <string name="m5">データベーステーブルの作成</string>
+    <string name="mw5">MySQLデータ型</string>
+    <string name="mt5">データベースを作成し、作成するテーブルの名前を指定したら、フィールドの名前をテーブルに配置します。この場合、主キーは常にidで、各フィールドにはデータ型を配置します および各フィールドの長さ（文字）。 続行し、データベースが保存されます。</string>
+    <string name="m6">データベース構造を表示</string>
+    <string name="mt6">データベーステーブルを作成した後、構造をクリックすると、フィールドの名前と各フィールドのデータのタイプが表示されます。 必要に応じて、変更を加えたり、別のフィールドを追加するオプションも取得します</string>
+    <string name="m7">BDテーブルへのデータの挿入</string>
+    <string name="mt7">対応するフィールドと主キーを使用してテーブルを作成したら、一意の主キーを考慮してデータを追加します。 この場合、オプションの自動インクリメントを指定したため、入力する必要はありません。挿入フィールドに移動する図に示すように、対応するデータをテーブルに追加して続行します.</string>
+    <string name="m8">テーブル関係の作成</string>
+    <string name="mt8">データベースに主キーを持つ別のテーブルを作成し、この場合は別のテーブルからフィールドを追加します。この場合、user_idを配置し、テーブルを作成したら、外部キーを配置するデータを選択し、一意の 灰色のキーが表示されます。</string>
+    <string name="mtt8"><![CDATA[2つのテーブルを関連付けるために、データベースをクリックし、上部に[more]> [designer]オプションを指定して、関係を作成します。]]></string>
+    <string name="mttt8">デザイナーで、左側のサイドバーのオプションでリレーションシップを作成するオプションを指定し、そこでリレーションシップを作成するオプションを押して、外部キーを持たないプライマリキーのテーブルをクリックし、外部キーを持つテーブルと結合します キーと関係が作成されます。</string>
+    <string name="m9">データベースの作り方</string>
+    <string name="v1">動画</string>
+    <string name="vt1">Webページの作成方法に関する完全なチュートリアル。</string>
+    <string name="vt2">コメント</string>
+    <string name="vt33">コメントを残してください</string>
+    <string name="regr">戻ってくる</string>
+
+    <string name="ma1">必要なソフトウェア</string>
+    <string name="mat1">Sublime Text 3とxamppのインストール方法</string>
+    <string name="mat2">崇高なテキストページ3</string>
+    <string name="mat3">Xamppページ</string>
+    <string name="mat4">プラグイン</string>
+
+    <string name="plu1">私のコースにインストール\nされたプラグイン</string>
+    <string name="plu2">最も使用される</string>
+    <string name="plu3">ウェブページ</string>
+    <string name="retro">フィードバック</string>
+
+    <string name="po1">問題名</string>
+    <string name="pos1">説明</string>
+    <string name="com1">コメントo</string>
+
+    <string name="d1">練習して楽しんで</string>
+    <string name="d2">始める</string>
+    <string name="d3">言語を選択してください</string>
+    <string name="d4">難易度</string>
+
+    <string name="confir">確認する</string>
+    <string name="siguiente">次の</string>
+    <string name="fin">終わり</string>
+
+    <string name="con1">私に連絡する</string>
+    <string name="con2">メールまたはwhatsappで私に書くことができます</string>
+
+    <string name="manualespa">スペイン語のユーザーマニュアル</string>
+    <string name="manualingle">英語ユーザーマニュアル</string>
+    <string name="ver1">英語版</string>
+    <string name="ver2">スペイン語版</string>
+
+    <string name="int1">基本的なWebデザインコースへようこそ。 このコースでは、事前の知識なしに独自のWebサイトを作成する方法を学びます。</string>
+    <string name="in2">JD Virtual Programming Laboratory</string>
+    <string name="int2">毎日見られるような素晴らしいWebページを作成するのに遅すぎることはありません！</string>
+    <string name="int3">このコースでは、HTML5を使用してWebサイトを自由にレイアウトできます。</string>
+
+    <string name="int4">CSS3は、Webを美しくする言語です。 CSS Webサイトとモバイルアプリケーションがないと、見苦しくて退屈に見えます。</string>
+    <string name="int5">最高のWebデザインフレームワークであるBoostrap 4を使用して、モバイルデバイスに適応可能なWebサイトを作成する方法を学びます。</string>
+    <string name="int6">MySQLコースを使用すると、データベースに挿入された情報を構造化された方法で参照できる構造化クエリ言語を理解できます。</string>
+    <string name="int7">PHPをマスターします。高速で柔軟性があり、実用的なオープンソース言語です。</string>
+
+    <string name="iniciar">開始するr</string>
+
+    <string name="omitir">スキップする</string>
+    <string name="idiom">言語を選択してください</string>
+
+    <string name="cargando">読み込み中...</string>
+    <string name="pos2">WhatsApp</string>
+
+    <string name="recuperar">パスワードを回復する</string>
+
+    <string name="red1">ソーシャルネットワークから始める</string>
+    <string name="olv1">パスワードを忘れた</string>
+
+    <string name="elimina1">アカウントを削除</string>
+
+    <string name="dir1">住所</string>
+    <string name="dir2">市区町村</string>
+    <string name="dir3">部門</string>
+    <string name="dir4">国</string>
+
+    <string name="user">ユーザー情報</string>
+    <string name="actualizar">更新する</string>
+
+    <string name="facebook_application_id" translatable="false">2223250087798400</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2223250087798400</string>
+
+    <string name="twitter_consumer_key" translatable="false">MsxcilOm9dIroGNWTpIsMX8JC</string>
+    <string name="twitter_consumer_secret" translatable="false">TPjutFEc3Hy3F8drkLrKO7q2IR5uTYPw1HCSVxiTE4q1sEbB4r</string>
+
+</resources>

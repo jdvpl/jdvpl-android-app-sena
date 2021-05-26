@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.YoutubeHtml5"
+    android:background="@drawable/fondo">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E400050C">
+        <Button
+            android:layout_width="26dp"
+            android:id="@+id/flecha"
+            android:layout_height="24dp"
+            android:background="@drawable/regresarflecha"
+            android:textColor="#000"
+            android:layout_margin="12dp"
+            android:elevation="100dp"
+            android:textStyle="bold"
+            />
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/playerf1">
+
+
+        </com.google.android.youtube.player.YouTubePlayerView>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

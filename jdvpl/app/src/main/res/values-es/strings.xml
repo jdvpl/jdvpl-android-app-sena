@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="idioma">Idioma</string>
+    <string name="no_estas_inscrito_reg_strate">No estas inscrito regístrate!!</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="inicio_de_sesion">inicio de sesion</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo1">Correo</string>
+    <string name="contraseña1">Contraseña</string>
+    <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+    <string name="nombre">Nombre</string>
+    <string name="registrar">registrar</string>
+    <string name="ya_tengo_cuenta">YA TENGO CUENTA!</string>
+    <string name="cursos">Cursos</string>
+    <string name="videos">Videos</string>
+    <string name="material">Material</string>
+    <string name="retroalimentacion">Retroalimentacion</string>
+    <string name="diviertete">Diviertete</string>
+    <string name="contacto">Contacto</string>
+    <string name="manual_de_usuario">Manual de Usuario</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <string name="Inicio">Inicio</string>
+    <string name="Inicio2">Selecciona tu curso</string>
+    <string name="html5">HTML5</string>
+    <string name="maquetaci_n_de_sitios_web">Maquetación de sitios web</string>
+    <string name="todo_en_dise_o_y_estilos">Todo en diseño y estilos</string>
+
+    <string name="framework_dise_ado_para_sitios_web">Framework diseñado para sitios web</string>
+    <string name="contenido_web_din_mico">Contenido web dinámico</string>
+    <string name="el_mejor_gestor_de_base_de_datos">El mejor gestor de base de datos</string>
+    //html5
+    <string name="qu_es_html5">¿Qué es HTML5?</string>
+    <string name="html5_es_un_lenguaje_markup_de_hecho_las_siglas_de_html_significan_hyper_text_markup_language_usado_para_estructurar_y_presentar_el_contenido_para_la_web_es_uno_de_los_aspectos_fundamentales_para_el_funcionamiento_de_los_sitios_pero_no_es_el_primero_es_de_hecho_la_quinta_revisi_n_del_est_ndar_que_fue_creado_en_1990">HTML5 es un lenguaje markup (de hecho, las siglas de HTML significan Hyper Text Markup Language) usado para estructurar y presentar el contenido para la web. Es uno de los aspectos fundamentales para el funcionamiento de los sitios, pero no es el primero. Es de hecho la quinta revisión del estándar que fue creado en 1990.</string>
+    <string name="ht1">¿Que es el doctype?</string>
+    <string name="htx1">El Doctype o “Declaración del tipo de documento” es una instrucción especial que va al inicio de nuestro documento HTML y que permite al navegador entender qué versión de HTML estamos utilizando.</string>
+    <string name="h2">Etiqueta HTML meta</string>
+    <string name="ht2">Las etiquetas meta o meta tags encabezan un documento HTML y suministran información codificada a navegadores y motores de búsqueda sobre una página web.</string>
+    <string name="h3">Header</string>
+    <string name="ht3">Es una etiqueta nueva (de html5) y permite definir cabeceras dentro de una página. En realidad pueden existir varias cabeceras, 1 la principal de la página donde se ubicara la navegación, logotipo, h1, etc.</string>
+    <string name="h4">Nav</string>
+    <string name="ht4">Se usa para marcar una zona de enlaces como puede ser el menú principal, o los del sidebar (laterales) o del footer. Podemos tener un nav dentro de header, footer, section, y article</string>
+    <string name="h5">Section</string>
+    <string name="ht5">Es otro elemento nuevo de HTML5 y se ha creado sobre todo para evitar el uso excesivo de divs. Se debe usar para dividir un documento en diferentes secciones como por ejemplo una sección de noticias y otra de productos que a su vez está separado en header, div y footer</string>
+    <string name="ht6">Es un elemento clásico y se debe usar para agrupar contenido en bloques o capas y poder aplicarle un estilo o una ubicación a todo el conjunto, por ejemplo si queremos que este alineado a la derecha.</string>
+    <string name="ht7">Los articles son bloques de información, como si fuesen entradas de un blog, pero no tienen que ser noticias, pueden ser servicios, productos, enlaces con otras páginas, etc. La idea es que dentro de 1 sectión haya diferentes articles, agrupados por que así tiene más lógica.</string>
+    <string name="ht8">En ocasiones cuando en una página estamos hablando sobre un tema, surge la necesidad de aclarar algo que no está directamente relacionado con el resto, para eso debe usarse esta etiqueta.Habitualmente se usa para establecer los sidebars laterales, que son contenido más general</string>
+    <string name="ht9">Se usa para marcar un formulario. Las funcionalidades de los formularios en HTML5 brindan una experiencia mejor para los usuarios al permitir que los formularios tengan un comportamiento más consistente entre diferentes sitios web y al darle una devolución inmediata acerca de la información ingresada</string>
+    <string name="ht10">Si tenemos imágenes con título, descripción, copyright, etc. Debemos agrupar todo el contenido relacionado con esa imagen con esta etiqueta</string>
+    <string name="ht11">La etiqueta footer representa el pie de un documento o sección. La información que se suele añadir en este bloque es el autor del documento, enlaces a contenido relacionado, información de copyright, avisos legales, etc.Igualmente podremos agregar al pie información de contacto.</string>
+    <string name="ht12">¿Quieres crear tu sitio web?</string>
+    //css3
+    <string name="c1">¿Qué es css3?</string>
+    <string name="ct1">CSS significa Cascade Style Sheets, también llamado Hojas de Estilo en Cascada. CSS3 es un lenguaje de marcado que se emplea para dar formato a un sitio web. Es decir, funciona en conjunto con los archivos HTML. Por esta razón, para crear un sitio web debes saber tanto HTML como CSS.</string>
+    <string name="c2">Conectando CSS a HTML</string>
+    <string name="ct2">Hay tres maneras de conectar un archivo de css a html5, la primera es crear un archivo en la misma carpeta donde tiene el archivo html y colocar una etiqueta link para conectar los archivos y empezar a dar el diseño. El segundo es crear un archivo style en html dentro del Head y dar estilo desde allí. En la tercera debes colocarle el atributo style y darle desde estilo allí</string>
+    <string name="c3">Selector global: *</string>
+    <string name="ct3">El selector global aplica sus estilos a todos los elementos HTML del documento, sin importar el tipo de etiqueta, clase, id o su ascendencia, descendencia. Es un asterisco (*), y hay que tener cuidado con su uso porque afecta a todos los elementos sin distinción (incluido el body), y esto puede repercutir en el rendimiento general del proyecto.</string>
+    <string name="c4">Selector de elemento: h1,section, article, img, etc.</string>
+    <string name="ct4">Es el selector más común, que identifica directamente a las etiquetas HTML. Los estilos se aplican a todos los elementos mencionados. En el siguiente ejemplo, vemos cómo aplicamos un fondo gris a todas las capas “div“.</string>
+    <string name="c5">Selector de clases o identificadores: . , #</string>
+    <string name="ct5">El selector de clase aplica sus estilos a todos los elementos HTML que incluyan dicho nombre de clase. Para declarar este selector CSS incluimos el nombre de clase precedido de un punto (.). El selector de identificador (id) se simbolizar con # y tiene semejanza a la clase(.).</string>
+    <string name="c6"><![CDATA[Selector de hijos directos: elementoA > elementoB]]></string>
+    <string name="ct6">Este selector permite aplicar estilos a los elementos B contenidos en elementos A, siempre y cuando sean descendientes directos. En este caso section es el padre de article o sea que article esta dentro de section.</string>
+    <string name="c7">Pseudo clases :hover, :link, :visited, :active</string>
+    <string name="ct7">Sin duda estas son las pseudo clases más conocidas, y aunque :hover se puede aplicar a múltiples elementos, todas ellas se suelen utilizar para aplicar diferentes estilos a los enlaces para los estados “sobre”, “sin visitar”, “visitado” y “activo” (al hacer click).</string>
+    <string name="c8">¿Quieres darle diseño a tu página web?</string>
+    <string name="b1">¿Qué es Bootstrap?</string>
+    <string name="bt1">Bootstrap es un framework CSS desarrollado inicialmente (en el año 2011) por Twitter que permite dar forma a un sitio web mediante librerías CSS que incluyen tipografías, botones, cuadros, menús y otros elementos que pueden ser utilizados en cualquier sitio web. Aunque el desarrollo del framework Bootstrap fue iniciado por Twitter, fue liberado bajo licencia MIT en el año 2011 y su desarrollo continua en un repositorio de GitHub</string>
+    <string name="b2">conexión a bootstrap</string>
+    <string name="bt2">Para conectar el Framework Boostrap, hay varias opciones pegando el link que nos deja la página pero funciona con intenet, en cambio la que vamos a utilizar es descargando los archivos .css, .js, directamente de la página, los extraemos en una carpeta donde va ir el proyecto.  Allí dejamos solo un archivo css y un archivo js en diferentes carpetas y los enlazamos en sublime text con la etiqueta link y script, además enlazamos unos link de la libreria Jquery desde la página para que funcionen los js.</string>
+    <string name="b3">Barra de Navegación</string>
+    <string name="bt3">para crear una barra de navegacion de manera sencilla y rápida, solo tenemos que ir la documentacion de Bootstrap a la seccion de component y buscamos Navbar y elegimos cual queremos y lo copiamos en sublime text 3 y luego editamos lo que queremos que salga.</string>
+    <string name="b4">Carousel o Slider</string>
+    <string name="bt4">El carrusel es una presentación de diapositivas para recorrer una serie de contenidos, construido con transformaciones CSS 3D y un poco de JavaScript. Funciona con una serie de imágenes, texto o marcas personalizadas. También incluye soporte para controles e indicadores anteriores / siguientes</string>
+    <string name="bt5">Es un componente ligero y flexible que opcionalmente puede extender toda la ventana gráfica para mostrar mensajes clave de marketing en su sitio.</string>
+    <string name="b6">Tarjetas</string>
+    <string name="bt6">Una tarjeta es un contenedor de contenido flexible y extensible. Incluye opciones para encabezados y pies de página, una amplia variedad de contenido, colores de fondo contextuales y potentes opciones de visualización</string>
+    <string name="b7">Acordion o Collapsed</string>
+    <string name="bt7">Usando el componente de tarjeta , puede extender el comportamiento de colapso predeterminado para crear un acordeón. Para lograr correctamente el estilo de acordeón, asegúrese de usarlo .accordioncomo envoltorio.</string>
+
+    <string name="b8">Alertas</string>
+    <string name="bt8">Proporcione mensajes de comentarios contextuales para acciones típicas de los usuarios con el puñado de mensajes de alerta disponibles y flexibles.</string>
+    <string name="b9">Documentacion de bootstrap</string>
+    //php
+    <string name="p1">¿Qué es php?</string>
+    <string name="pt1">PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.PHP se utiliza para generar páginas web dinámicas. Recordar que llamamos página estática a aquella cuyos contenidos permanecen siempre igual, mientras que llamamos páginas dinámicas a aquellas cuyo contenido no es el mismo siempre. Por ejemplo, los contenidos pueden cambiar en base a los cambios que haya en una base de datos, de búsquedas o aportaciones de los usuarios, etc.</string>
+    <string name="p2">Configuración de entorno</string>
+    <string name="pt2">Debes crear un archivo en sublime text 3 con la extension php y guardarlo en la carpeta htdocs pero para ello debes tener instalado el programa xampp. Luego de haber descargado Xampp, debes guardar los archivos desde ahora en adelante en la carpeta HTDOCS de xammp donde lo hayas instalado como en el ejemplo. Para mostrar la página que has hecho, debes activar los permisos del xampp (apache y mysql). Al haber activado los servicios, debes colocar la ruta en el navegador así como el ejemplo de la imagen 2</string>
+    <string name="p3">Hola mundo dentro de html</string>
+    <string name="pt3">Como vemos en la imagen podemos incrustar eqtiquetas de html5 dentro de php, debemos tener en cuenta que las etiquetas de php siempre comienzan con "?php" y cierran con "?". Aquí colocamos un texto hola mundo pero para poderlo imprimir debe ser con la función echo además se tiene en cuenta que se puede dar estilo mediante bootstrap o ccs3.</string>
+    <string name="p4">Variables</string>
+    <string name="pt4">En PHP las variables se representan con un signo de dólar seguido por el nombre de la variable. El nombre de la variable es sensible a minúsculas y mayúsculas. Además como vemos en la imagen las variables se pueden alterar al imprimirlas en pantalla con echo o print. Existen varios tipos de variables: String (cadenas de texto) Integer(numero enteros) Float o Double (Decimales) Boolean (True o False)</string>
+    <string name="p5">constantes</string>
+    <string name="pt5">Una constante es un identificador (nombre) para un valor simple. Como el nombre sugiere, este valor no puede variar durante la ejecución del script. Por defecto, una constante distingue mayúsculas y minúsculas. Por convención, los identificadores de constantes siempre se declaran en mayúsculas.</string>
+    <string name="p6">concatenación e interpolación</string>
+    <string name="pt6">Como podemos observar en estas dos imágenes para unir dos variable existen estas dos formas y también por parte del programador como las quiera imprimir en pantalla ya sea por interpolacion o por concatenacion.</string>
+    <string name="p7">Operadores aritméticos</string>
+    <string name="pt7">¿Recuerda la aritmética básica de la escuela? Estos funcionan igual que aquellos. Al igual mas de una persona no conoce el modulo. El modulo es un operador que sirve para saber el residuo de una division, hoy en día se usa mucho este operador ya sea para los pares e impares o para numeros primos.</string>
+
+    <string name="p8">Operadores de asignación</string>
+    <string name="pt8">El operador de asignación nos permite asignar un valor a una variable. Aunque el operador de asignación más conocido es el signo igual (=), existen otros operadores que son una derivación del operador de asignación básico. Asi como se muestra en la imagen se utilizan los operadores de asignacion el de suma y resta tambien se utilizan en la multiplicacion, division, modulo hasta concatenando pero no es muy usado.</string>
+    <string name="p9">Operadores Lógicos y de comparación</string>
+    <string name="pt9">Los operadores de comparación permiten comparar dos o mas valores, tal y como su nombre indica. En general, esto nos servirá para tomar decisiones. Por ejemplo, quizás tenemos que decidir si autorizar una operación según exista saldo suficiente en su cuenta bancaria o no. Para ello en PHP disponemos de los operadores que se indican en la imagen.</string>
+    <string name="p10">else if/if else</string>
+    <string name="pt10">elseif, como su nombre lo sugiere, es una combinación de if y else. Del mismo modo que else, extiende una sentencia if para ejecutar una sentencia diferente en caso que la expresión if original se evalúe como FALSE. Sin embargo, a diferencia de else, esa expresión alternativa sólo se ejecutará si la expresión condicional del elseif se evalúa como TRUE. Por ejemplo, el siguiente código debe mostrar a es mayor que b, a es igual que b o a es menor que b, pero como se asigno a la variable a=5 y la variable b=2 entonces el resultado nos va a dar la primera condicion.</string>
+    <string name="p11">sentencia switch</string>
+    <string name="pt11">La sentencia switch es similar a una serie de sentencias IF en la misma expresión. En muchas ocasiones, es posible que se quiera comparar la misma variable (o expresión) con muchos valores diferentes, y ejecutar una parte de código distinta dependiendo de a que valor es igual.</string>
+    <string name="p12">Bucle while</string>
+    <string name="pt12">El significado de una sentencia while es simple. Le dice a PHP que ejecute las sentencias anidadas, tanto como la expresión while se evalúe como TRUE. El valor de la expresión es verificado cada vez al inicio del bucle, por lo que incluso si este valor cambia durante la ejecución de las sentencias anidadas, la ejecución no se detendrá hasta el final de la iteración. A veces, si la expresión while se evalúa como FALSE desde el principio, las sentencias anidadas no se ejecutarán ni siquiera una vez.</string>
+    <string name="p13">Bucle for</string>
+    <string name="pt13">Los bucles For son mas sencillos a la hora de interactuar con ellos en la primer imagen vemos que tenemos un bucle el cual va aumentando de 2 en 2 hasta 10 y en el segundo bucle va decrementando desde 20 hasta -20 desde 3 en 3.</string>
+    <string name="p14">Array</string>
+    <string name="pt14">Un array en PHP es en realidad un mapa ordenado. Un mapa es un tipo de datos que asocia valores con claves. Este tipo se optimiza para varios usos diferentes; se puede emplear como un array, lista (vector), tabla asociativa, diccionario, colección, pila, cola, y posiblemente más. Ya que los valores de un array pueden ser otros arrays, también son posibles árboles y arrays multidimensionales. En el ejemplo vemos que pusimos 9 frutas y queremos imprimir el orden en que aparece la imagen (2,5,8,0).</string>
+    <string name="p15">Conexión a una base de datos</string>
+    <string name="pt15">¿Cómo hacer una base de datos?</string>
+    <string name="pt155">Para hacer la conexion a una base de datos es sencillo pero primero debes crear un base de datos. En el ejemplo hacemos la conexion con mysqli el servidor que en este caso es \'localhost\', el usuario que es \'root\', la contraseña que no tiene se deja en blanco, y el nombre de la base de datos que en este caso es \'phpcrud\'.</string>
+    <string name="p16">Implementando un formulario</string>
+    <string name="pt16">Creamos un formulario así como el del ejemplo pueden colocar otros campos si es de su gusto y también el tipo de dato pero deben tener en cuenta el \'name\' ya que se va hacer la acción de guardar (operacion_guardar) los tods los datos en la base de datos, pero para ello se debe crear un archivo operación guardar, en cual va a haer la conexion y guardar los datos en la base de datos, y el metodo \'POST\' es el que procesa y recupera los datos. Luego que hemos hecho el formulario con sus respectivos \'name\' procurar que sean el mismo nombre con el que nombraste cada uno de los campos en la base de datos por ejemplo en la base de datos hay un campo llamado nombre y en el formulario igual</string>
+    <string name="p17">Guardando los datos en la BD</string>
+    <string name="pt17">El archivo Operación guardar incluye la el archivo de conexion, el cual hacemos la conexion a la base de datos; creamos ulas variables correspondientes para cada campo del formulario y los recuperamos con el metodo \'POST\', luego creamos una variable que se llama \'query\' en el cual vamos a insertar cada uno de los datos a la base de datos correspondiente, en este caso se insertan los datos a la tabla usua que tiene como nombre los campos \'nombre,email,telefono, ciudad, mensaje\' los datos que recoje las variables (\'$nombre\',\'$correo\',\'$telefono\',\'$ciudad\',\'$mensaje\'). Luego se crea una variable resultado el cual hace el proceso de la insercion de los datos a los datos correspondientes, la condicion final es para comprobar si la insercion es exitosa o no.</string>
+    <string name="p18">imprimir en pantalla los datos guardados en la bd</string>
+    <string name="pt18">Para imprimir en pantalla los datos que agregar en el formulario debes tener el archivo de conexion, y utilizar las mismas variables que usaste en el archivo de \'operacion_guardar\', además se debe utilizar una sentencias la cual es \'SELECT * FROM usua\' para seleccionar todos los datos que se han insertado en la tabla de \'usua\' de igual manera así como en la imagen debemos utilizar el bucle while con la función \'fetch_assoc\' para imprimir en pantalla en el orden que se van insertando. por otro lado solo imprimiremos dos datos el cual es el \'nombre\' y \'mensaje\' aunque es de su preferencia los que ustedes quieran, que van de igual modo en la variable \'$row\'.</string>
+    <string name="p19">crea tu página con un formulario</string>
+    //mysql
+    <string name="m1">¿Qué es mysql?</string>
+    <string name="mt1">MySQL es un sistema de gestión de bases de datos que cuenta con una doble licencia. Por una parte es de código abierto, pero por otra, cuenta con una versión comercial gestionada por la compañía Oracle. Actualmente, es la base de datos de código abierto más famosa y utilizada en el mundo entero.</string>
+    <string name="m2">Activar el servicio apache y mysql</string>
+    <string name="mv2">Video de instalacion</string>
+    <string name="mt2">Debemos activar los servicios de apache y mysql para poder crear y gestionar la base de datos en mysql</string>
+
+    <string name="m3">Entrando a la base de datos desde cmd o Internet</string>
+    <string name="mt3">Luego de haber activado los servicios de apache y mysql entramos al cmd o DOS y ingresamos la ruta que nos muestra la imagen numero 1, o escribimos en el navegador de tu preferencia http://localhost/phpmyadmin/ y así entraremos a la base de datos</string>
+    <string name="m4">creando la base de datos</string>
+    <string name="mt4">Luego de haber entrado a la base de datos, pulsamos en nueva y creamos la base de datos que queremos hacer allí escogemos el tipo de carácter en este caso es utf8_general-ci y le pulsamos crear luego creamos la tabla con el numero de columnas correspondientes.</string>
+    <string name="m5">creando una tabla de la base de datos</string>
+    <string name="mw5">Tipos de datos de mysql</string>
+    <string name="mt5">Después de haber creado la base de datos y al darle el nombre de la tabla que quieres crear procedmos a colocar el nombre de los campos de la tabla y seimpre ponemos una llave primaria en este caso es id y en cada campo ponen los tipos de datos y la longitud de cada campo(caracteres). y le damos continuar y se guardara la base de datos.</string>
+    <string name="m6">Mostrar estructura de la base de datos</string>
+    <string name="mt6">Después de haber creado la tabla de la base de datos le pulsamos en estructura y allí nos saldra el nombre de los campos y el tipo de datos que tiene cada campo.  También nos saldran las opciones para hacer modificaciones y también para agregar otro campo si es de su preferencia</string>
+    <string name="m7">Insertando datos en la tabla de la BD</string>
+    <string name="mt7">Una vez creada la tabla con los campos correspondientes y con la llave primaria agregaremos los datos teniendo en cuenta la llave primaria que es única; en este caso le dimos la opcion autoincrement así que no necesitamos digitarla, agregaremos los datos correspondientes en la tabla así como se muestra en la figura yendo al campo de insertar y le damos continuar</string>
+    <string name="m8">Creando relacion de tablas</string>
+    <string name="mt8">creamos otra tabla en la base de datos con una llave primaria, y además agregandole un campo de la otra tabla en este caso le ponemos id_usuario y una vez creada la tabla seleccionamos el dato que le queremos poner la llave foranea y le pulsamos en único y nos mostrara una llave gris.</string>
+    <string name="mtt8"><![CDATA[Para relacionar las Dos tablas damos click en la base de datos, luego le damos en la parte superior la opcion mas > diseñador y allí crearemos las relaciones.]]></string>
+    <string name="mttt8">Una vez en diseñador le damos en la opcion crear relacion en las opciones de la barra lateral izquierada y allí pulsamos la opcion crear relacion y pulsamos en la tabla en la llave primaria que no tiene llave foranea y la unimos con la tabla que tiene la llave foranea y se creara la relacion.</string>
+    <string name="m9">como hacer una base de datos</string>
+    <string name="v1">Tutoriales</string>
+    <string name="vt1">Tutorial completo de como hacer una página web.</string>
+    <string name="vt2">Comentarios</string>
+    <string name="vt33">deja tu cometario</string>
+    <string name="regr">regresar</string>
+
+    <string name="ma1">Software Requerido</string>
+    <string name="mat1">Como instalar sublime text 3 y xampp</string>
+    <string name="mat2">Página de Sublime text 3</string>
+    <string name="mat3">Página de Xampp</string>
+    <string name="mat4">Plugins</string>
+
+    <string name="plu1">Plugin Instalados en \nmi curso</string>
+    <string name="plu2">Los mas usados</string>
+    <string name="plu3">Página web</string>
+    <string name="retro">Retroalimentacion</string>
+
+    <string name="po1">Nombre del problema</string>
+    <string name="pos1">Descripcion</string>
+    <string name="com1">Comentario</string>
+
+    <string name="d1">Divierte Practicando</string>
+    <string name="d2">comenzar</string>
+    <string name="d3">Selecciona tu lenguaje</string>
+    <string name="d4">Dificultad</string>
+
+    <string name="confir">Confirmar</string>
+    <string name="siguiente">Continuar</string>
+    <string name="fin">Terminar</string>
+
+    <string name="con1">Contáctame</string>
+    <string name="con2">puedes escribirme vía email o whatsapp</string>
+
+    <string name="manualespa">Manual de Usuario en Español</string>
+    <string name="manualingle">Manual de Usuario en Ingles</string>
+    <string name="ver1">Versión Inglés</string>
+    <string name="ver2">Versión Español</string>
+
+    <string name="int1">Bienvenidos al curso básico de diseño web. En este curso aprenderás a cómo crear tu propio sitio web sin tener conocimientos previos.</string>
+    <string name="in2">Laboratorio Virtual de Programación de JD</string>
+    <string name="int2">No es tarde para crear esas increibles páginas web que ves todos los días tu también puedes!</string>
+    <string name="int3">En este curso aprenderás gratis a maquetar sitios Web con HTML5</string>
+    <string name="int4">CSS3 es el lenguaje que hace a la web hermosa. Sin CSS los sitios web y aplicaciones móviles se verían feos y aburridos</string>
+    <string name="int5">Aprende a crear cualquier sitio web adaptable a dispositivos móviles con Boostrap 4, el mejor framework de diseño web</string>
+    <string name="int6">Con el curso de MySQL conocerás el lenguaje de consulta estructurada que te permitirá consultar de manera estructurada la información insertada en la base de datos.</string>
+    <string name="int7">Domina PHP, un lenguaje de código abierto que es rápido, flexible y práctico.</string>
+
+    <string name="iniciar">Iniciar</string>
+
+    <string name="omitir">Omitir</string>
+    <string name="idiom">Escoge el Idioma</string>
+
+    <string name="cargando">Cargando...</string>
+    <string name="pos2">telefono -whatssap</string>
+    <string name="recuperar">recuperar contraseña</string>
+
+    <string name="red1">Iniciar con redes sociales</string>
+    <string name="olv1">olvidaste la contraseña</string>
+
+    <string name="elimina1">eliminar cuenta</string>
+
+    <string name="dir1">Dirección</string>
+    <string name="dir2">Ciudad</string>
+    <string name="dir3">Departamento</string>
+    <string name="dir4">País</string>
+
+    <string name="user">Informacion del usuario</string>
+    <string name="actualizar">Actualizar</string>
+
+    <string name="facebook_application_id" translatable="false">2223250087798400</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2223250087798400</string>
+
+    <string name="twitter_consumer_key" translatable="false">MsxcilOm9dIroGNWTpIsMX8JC</string>
+    <string name="twitter_consumer_secret" translatable="false">TPjutFEc3Hy3F8drkLrKO7q2IR5uTYPw1HCSVxiTE4q1sEbB4r</string>
+
+
+
+</resources>

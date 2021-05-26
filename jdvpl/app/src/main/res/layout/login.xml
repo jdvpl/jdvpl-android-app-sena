@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logfon"
+       />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E1000000"
+       >
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idioma"
+                    android:id="@+id/idioma"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/btn_idioma"/>
+
+
+        <ImageView
+            android:id="@+id/log_photo"
+            android:layout_width="156dp"
+            android:layout_height="138dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logo" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/log_photo"
+            android:layout_margin="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/logcor"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="@string/correo"
+                android:inputType="textEmailAddress"
+                android:textSize="25sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/logcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="@string/contraseña"
+                    android:inputType="textPassword"
+                    android:textSize="25sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnlog"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textInputLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_redonreg"
+            android:padding="15dp"
+            android:text="@string/inicio_de_sesion"
+            android:textColor="#F1ECEC"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnrede"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnlog"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:onClick="loginred"
+                    android:background="@drawable/btn_redonreg"
+                    android:padding="15dp"
+                    android:text="@string/red1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/login_progresbar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="197dp"
+            android:layout_height="52dp"
+            android:layout_below="@+id/textInputLayout"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"/>
+
+
+                <Button
+                    android:id="@+id/logreg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnrede"
+                    android:layout_marginTop="30dp"
+                    android:background="#00FFFFFF"
+                    android:onClick="registro"
+                    android:padding="12dp"
+                    android:text="@string/no_estas_inscrito_reg_strate"
+                    android:textAllCaps="false"
+                    android:textColor="#FFC107"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/olvi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logreg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="#00FFFFFF"
+                    android:padding="5dp"
+                    android:onClick="olvidaste"
+                    android:text="@string/olv1"
+                    android:textAllCaps="false"
+                    android:textColor="#62AEF0"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

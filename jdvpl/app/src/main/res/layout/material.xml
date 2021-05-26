@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.juanda.jdvpl.material"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E8000000">
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:layout_width="26dp"
+                        android:id="@+id/flecha"
+                        android:layout_height="24dp"
+                        android:background="@drawable/regresarflecha"
+                        android:layout_margin="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ma1"
+        android:id="@+id/sod"
+        android:textColor="#6A04DD"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:padding="15dp"
+        />
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sod"
+        android:layout_marginTop="10dp"
+        android:id="@+id/playmaterial">
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mat1"
+                android:textSize="20sp"
+                android:layout_below="@+id/playmaterial"
+                android:id="@+id/inst"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtsublime"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/inst"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#6A04DD"
+                android:text="@string/mat2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtxampp"
+                android:layout_below="@+id/inst"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:paddingRight="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:textColor="#6A04DD"
+                android:text="@string/mat3"/>
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtsublime"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/websublime"
+        android:padding="10dp"
+        android:background="#E8000000"
+        android:src="@drawable/sublime"/>
+
+
+            <ImageButton
+                android:id="@+id/btn_webxampp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/txtxampp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="#E8000000"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/xampplogo" />
+
+
+            <Button
+                android:onClick="ShowPopup"
+                android:layout_below="@id/btn_webxampp"
+                android:textColor="#fff"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/mat4"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/btn_redonboots"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+
+        </RelativeLayout>
+
+</LinearLayout>

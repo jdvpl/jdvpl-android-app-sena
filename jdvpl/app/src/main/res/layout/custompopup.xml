@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:background="#000"
+    android:layout_gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E8000000"
+      >
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:text="X"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:backgroundTint="#E90909"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:background="@drawable/btn_redonreg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/plugind"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#F50404"
+            android:text="@string/plu1"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/plugin"
+            android:layout_below="@id/plugind"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/iamgep"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@id/iamgep"
+                    android:layout_marginLeft="20dp"
+                    android:lineSpacingExtra="3dp"
+                    android:id="@+id/descr"
+                    android:text="Package Control \n10% too Dull for my Tastes Color Schemes \nAutoFileName.sublime-package \nautosa-save \nBootstrap 4 Autocomplete\nBracketHighlighter \nColor Highlight \nColor Scheme-Thunderstorm \nCSS \nDocBlockr \nEmmet \nFuture Funk \nHTML5 \HTMLAttributes \HTMLBeautify \nSideBarEnhancements."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/plu2"
+                    android:textColor="#f00"
+                    android:id="@+id/losmas"
+                    android:layout_below="@+id/descr"
+                    android:layout_centerHorizontal="true"
+                    android:lineSpacingExtra="3dp"/>
+
+        <Button
+            android:id="@+id/btnfollow"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/plu3"
+            android:layout_below="@+id/losmas"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#3B413E"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_redonreg"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
